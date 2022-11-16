@@ -32,8 +32,6 @@
       - gimp
       - gnome
       - gnome-tweaks
-      - gnome-shell-extension-no-annoyance
-      - gnome-shell-extension-caffeine
       - golang-go
       - golint
       - grep
