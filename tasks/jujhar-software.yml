@@ -54,6 +54,7 @@
       - nautilus-wipe
       - ncdu
       - neofetch # get system deets to flex on others
+      - nemo # nautilus filemanager replacement
       - nethogs
       - net-tools
       - nmap
