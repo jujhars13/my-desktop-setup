@@ -61,7 +61,7 @@
       - openvpn
       - pandoc
       - pass
-      - picard # Next-Generation MusicBrainz audio files tagger
+      - picard # MusicBrainz audio files tagger
       - powertop
       - pwgen
       - python3-pip
@@ -72,7 +72,7 @@
       - rsync
       - shellcheck
       - socat
-      - sox #- Swiss army knife of sound processing
+      - sox # Swiss army knife of sound processing
       - tar
       - terminator
       - tig
