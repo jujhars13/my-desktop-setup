@@ -58,7 +58,6 @@
       - net-tools
       - nmap
       - obs-studio # live stream tool
-      - openshot # video editor
       - openvpn
       - pandoc
       - pass
