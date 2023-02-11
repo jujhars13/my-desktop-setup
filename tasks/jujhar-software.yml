@@ -32,8 +32,6 @@
       - gimp
       - gnome
       - gnome-tweaks
-      - gnome-shell-extension-no-annoyance
-      - gnome-shell-extension-caffeine
       - golang-go
       - golint
       - grep
@@ -56,25 +54,26 @@
       - nautilus-wipe
       - ncdu
       - neofetch # get system deets to flex on others
+      - nemo # nautilus filemanager replacement
       - nethogs
       - net-tools
       - nmap
       - obs-studio # live stream tool
-      - openshot # video editor
       - openvpn
       - pandoc
       - pass
-      - picard # Next-Generation MusicBrainz audio files tagger
+      - picard # MusicBrainz audio files tagger
       - powertop
       - pwgen
       - python3-pip
       - remmina
       - remmina-plugin-rdp
       - remmina-plugin-vnc
+      - restic # badass backup
       - rsync
       - shellcheck
       - socat
-      - sox #- Swiss army knife of sound processing
+      - sox # Swiss army knife of sound processing
       - tar
       - terminator
       - tig
