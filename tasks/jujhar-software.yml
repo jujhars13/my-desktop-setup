@@ -41,7 +41,8 @@
       - jq
       - lastpass-cli
       - libcanberra-gtk-module
-      - liferea
+      - liferea   # gui rss reader
+      - lynx  # tui browser
       - make
       - mycli
       - nemo # nice file manager
@@ -74,6 +75,7 @@
       - shellcheck
       - socat
       - sox # Swiss army knife of sound processing
+      - strace # debug system calls
       - tar
       - terminator
       - tig
@@ -84,7 +86,6 @@
       - tree
       - ubuntu-restricted-extras # MP3, Microsoft fonts, Flash plugin, LAME and DVD playback
       - unzip
-      - w3m # cli tui browser, a la lynx
       - wget
       - whois
       - vim
