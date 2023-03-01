@@ -42,8 +42,8 @@
       - jq
       - lastpass-cli
       - libcanberra-gtk-module
-      - liferea   # gui rss reader
-      - lynx  # tui browser
+      - liferea # gui rss reader
+      - lynx # tui browser
       - make
       - mycli
       - nemo # nice file manager
@@ -59,6 +59,7 @@
       - nemo # nautilus filemanager replacement
       - nethogs
       - net-tools
+      - nfs-client
       - nmap
       - obs-studio # live stream tool
       - openvpn
