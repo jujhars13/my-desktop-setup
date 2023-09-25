@@ -31,7 +31,6 @@
       - git
       - gimp
       - gnome
-      - gnome-tweak
       - gnome-screenshot
       - golang-go
       - golint
