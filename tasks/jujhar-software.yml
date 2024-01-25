@@ -13,6 +13,7 @@
 
 - name: Install Jujhar's Software
   ignore_errors: true
+  ignore_unreachable: true
   ansible.builtin.package:
     name:
       - audacity
