@@ -8,4 +8,3 @@ ansible_roles_from_galaxy_list:
   #- gantsign.oh-my-zsh
   - gantsign.visual-studio-code
   - geerlingguy.docker
-  - pixelart.chrome
