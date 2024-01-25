@@ -104,11 +104,3 @@
       - zsh
       - zsh-syntax-highlighting
     state: latest
-
-- name: Install python packages
-  ignore_errors: true
-  pip:
-    name:
-      #- aws-cli
-      - termtime
-      - bpytop
