@@ -12,6 +12,7 @@
       - bambam # baby keyboard mashing software
 
 - name: Install Jujhar's Software
+  ignore_errors: true
   ansible.builtin.package:
     name:
       - audacity
