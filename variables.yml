@@ -2,9 +2,9 @@
 ansible_roles_from_galaxy_list:
   #- freedomofpress.signal-desktop
   #- alvistack.audacious
-  - alvistack.libreoffice
-  - mlangry.arc-theme
-  - mlangry.arc-icon-theme
-  #- gantsign.oh-my-zsh
-  - gantsign.visual-studio-code
-  - geerlingguy.docker
+  # - alvistack.libreoffice
+  # - mlangry.arc-theme
+  # - mlangry.arc-icon-theme
+  # #- gantsign.oh-my-zsh
+  # - gantsign.visual-studio-code
+  # - geerlingguy.docker
