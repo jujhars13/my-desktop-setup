@@ -12,10 +12,10 @@
     # install my yum/apt repo software
     - import_tasks: tasks/jujhar-software.yml
 
-    # import galaxy roles locally
-    - command: ansible-galaxy install {{ item }} --roles-path /usr/share/ansible/roles
-      with_items:
-        - "{{ ansible_roles_from_galaxy_list }}"
+    # # import galaxy roles locally
+    # - command: ansible-galaxy install {{ item }} --roles-path /usr/share/ansible/roles
+    #   with_items:
+    #     - "{{ ansible_roles_from_galaxy_list }}"
 
     # install imported galaxy roles
     - include_role:
