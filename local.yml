@@ -17,13 +17,13 @@
     #   with_items:
     #     - "{{ ansible_roles_from_galaxy_list }}"
 
-    # install imported galaxy roles
-    - include_role:
-        name: "{{ outer_item }}"
-      with_items:
-        - "{{ ansible_roles_from_galaxy_list }}"
-      loop_control:
-        loop_var: outer_item
+    # # install imported galaxy roles
+    # - include_role:
+    #     name: "{{ outer_item }}"
+    #   with_items:
+    #     - "{{ ansible_roles_from_galaxy_list }}"
+    #   loop_control:
+    #     loop_var: outer_item
 
     # install my own custom roles
     - include_role:
