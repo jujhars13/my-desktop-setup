@@ -106,6 +106,7 @@
     state: latest
 
 - name: Install python packages
+  ignore_errors: true
   pip:
     name:
       #- aws-cli
