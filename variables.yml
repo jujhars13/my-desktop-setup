@@ -1,7 +1,7 @@
 
 ansible_roles_from_galaxy_list:
   #- freedomofpress.signal-desktop
-  - alvistack.audacious
+  #- alvistack.audacious
   - alvistack.libreoffice
   - mlangry.arc-theme
   - mlangry.arc-icon-theme
