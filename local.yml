@@ -25,15 +25,15 @@
     #   loop_control:
     #     loop_var: outer_item
 
-    # install my own custom roles
-    - include_role:
-          name: "{{ outer_item }}"
-      with_items:
-        - dbeaver
-        - desktop-cleanup
-        - desktop-preferences
-      loop_control:
-        loop_var: outer_item
+    # # install my own custom roles
+    # - include_role:
+    #       name: "{{ outer_item }}"
+    #   with_items:
+    #     - dbeaver
+    #     - desktop-cleanup
+    #     - desktop-preferences
+    #   loop_control:
+    #     loop_var: outer_item
 
   post_tasks:
     - import_tasks: tasks/post-tasks.yml
