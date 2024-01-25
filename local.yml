@@ -1,8 +1,8 @@
 - hosts: localhost
   connection: local
   become: true
-  vars_files:
-    - variables.yml
+  # vars_files:
+  #   - variables.yml
 
   pre_tasks:
     - import_tasks: tasks/pre-tasks.yml
