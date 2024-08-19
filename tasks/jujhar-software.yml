@@ -30,8 +30,8 @@
       - firefox
       - forensics-all
       - gcc
-      - git
       - gimp
+      - git
       - gnome
       - gnome-screenshot
       - golang-go
@@ -42,23 +42,25 @@
       - jq
       - lastpass-cli
       - libcanberra-gtk-module
+      - libsource-highlight-common
       - liferea # gui rss reader
       - lynx # tui browser
       - make
+      - moreutils # additional unix utilities such as lckdo: Executes a program while holding a lock https://itnext.io/8-advanced-linux-command-line-tools-9d81258c3165
       - mycli
-      - nemo # nice file manager
-      - nemo-fileroller
-      - nemo-font-manager
       - nautilus-admin
       - nautilus-extension-gnome-terminal
       - nautilus-font-manager
       - nautilus-image-converter
       - nautilus-wipe
       - ncdu
-      - neofetch # get system deets to flex on others
       - nemo # nautilus filemanager replacement
-      - nethogs
+      - nemo # nice file manager
+      - nemo-fileroller
+      - nemo-font-manager
+      - neofetch # get system deets to flex on others
       - net-tools
+      - nethogs
       - nfs-client
       - nmap
       - obs-studio # live stream tool
@@ -88,14 +90,14 @@
       - tree
       - ubuntu-restricted-extras # MP3, Microsoft fonts, Flash plugin, LAME and DVD playback
       - unzip
-      - wget
-      - whois
       - vim
-      - vim-pathogen
       - vim-gtk3
+      - vim-pathogen
       - vim-syntastic
       - vim-syntax-docker
       - vlc
+      - wget
+      - whois
       - xclip # to manipulate the clipboard
       - xournal # drawing note taking and PDF annotation software
       - xstow

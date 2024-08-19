@@ -1,7 +1,7 @@
 # My Desktop Setup
 My ~~Ubuntu~~ desktop base setup using Ansible. Tested using Vagrant
 
-- Ubuntu (20)
+- ~~Ubuntu (20)~~ Ubuntu 24.04 LTS (Noble Numbat)
 - Fedora (35)
 
 ## Usage
@@ -10,10 +10,10 @@ To install on vanilla setup use with `ansible-pull` to initialise a local instal
 
 ```bash
 # on Ubuntu
-apt-get update && apt-get install -y ansible git
+sudo apt-get update && sudo apt-get install -y ansible git
 
 # on Fedora
-dnf install -y ansible git
+sudo dnf install -y ansible git
 
 # then
 sudo ansible-pull --url https://github.com/jujhars13/my-desktop-setup.git
